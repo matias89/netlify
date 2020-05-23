@@ -1,0 +1,28 @@
+.contenedor {}
+
+.fondo {
+    display: flex;
+    padding: 100px;
+    background: url(../imagenes/portada.jpg)no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: contrast(50%);
+    filter: contrast(50%);
+    width: 100%;
+}
+
+.video {
+    flex: 60%;
+    padding-right: 30px;
+}
+
+.descripcion {
+    flex: 40%;
+    margin: auto;
+}
+
+.video && .descripcion:::before {
+    opacity: 1;
+}
