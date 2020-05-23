@@ -2,17 +2,21 @@
 
 .bg-img-featured-movie {
     background-image: url(/img/featured-movie.jpg);
-    height: 768px;
+    min-height: 768px;
 }
 
 .featured-movie-title {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1.5rem;
+    position: relative;
+    top: 40%;
     text-transform: uppercase;
 }
 
 .featured-movie-synopsis {
-    
+    letter-spacing: 0.1rem;
+    position: relative;
+    top: 40%;
 }
 
 .featured-movie-maturity-rating {
@@ -20,6 +24,8 @@
     border: solid 3px #dcdcdc;
     border-style: none none none solid;
     height: 2.4vw;
-    padding: .5vw 3.5vw .5vw .8vw;
+    position: relative;
+    padding: .5vw 6.5vw .5vw .8vw;
+    top: 50%;
     width: 2.4vw;
 }
