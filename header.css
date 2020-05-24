@@ -1,0 +1,11 @@
+body {
+    background-image: url(/aves-de-presa-Poster-1280x720.jpg);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color:rgba(221, 218, 18, 0.87);
+    
+}
+header {
+    background-color: rgba(0, 0, 0, 0.444);
+}
