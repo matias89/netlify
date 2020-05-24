@@ -1,46 +1,46 @@
-.fondo {
+.seccionDestacada--fondo {
     justify-content: center;
     background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url(../imagenes/portada.jpg);
     background-size: cover;
 }
 
-.contenedor {
+.seccionDestacada--contenedor {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.video {
+.seccionDestacada--video {
     flex: 66.66%;
     padding-right: 30px;
 }
 
-.descripcion {
+.seccionDestacada--descripcion {
     flex: 33.33%;
     margin: auto;
 }
 
 @media(max-width: 575px) {
-    .contenedor {
+    .seccionDestacada--contenedor {
         flex-direction: column;
     }
-    .video {
+    .seccionDestacada--video {
         flex: 100%;
         padding-right: 0;
     }
-    .descripcion {
+    .seccionDestacada--descripcion {
         flex: 100%;
     }
 }
 
 @media(min-width: 576px) and (max-width: 767px) {
-    .video {
+    .seccionDestacada--video {
         padding-right: 10px;
     }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
-    .video {
+    .seccionDestacada--video {
         padding-right: 20px;
     }
 }
