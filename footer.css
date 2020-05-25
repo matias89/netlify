@@ -1,0 +1,39 @@
+.container {
+    background: #717171;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    float: none;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.second-block,
+.third-block,
+.fourth-block {
+    margin-top: 39px;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    width: 126px;
+    margin: 0px;
+}
+
+.p-button {
+    margin: 0px;
+}
+
+.p-size {}
