@@ -3,29 +3,26 @@ body{
 }
 .contenedor-hover{
     position: relative;
-    top: 150px;
-    margin: auto;
-    width: 400px;
-    height: 200px;   
+    height: 150px;
+    padding: 0;   
 }
 img{
     width: 100%;
-    height: 100%;
+    height:100%
 }
 .content-text{
     color: white; 
     display: none;
     position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    bottom: 0;
     font-family: 'Nunito', sans-serif;
 }
 .title-img-movie{
-    margin-top:110px;    
+    margin-top:50px;
+    font-weight: bold;    
 }
 .paragraph-img-movie{
-    margin-top: -25px;
+    margin-top: -10px;
     font-weight: lighter;
 }
 .contenedor-hover:hover .content-text{
@@ -35,12 +32,12 @@ img{
 .contenedor-hover:hover img {
     transform:scale(1.1);   
     transition:all .8s ease;
-    opacity: 30%;
+    opacity: 10%;
 }
 .limit-age{
     font-family: 'Nunito', sans-serif;
     background: rgba(0, 0, 0, 0.623);
     width: 35px;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -5px;
 }
