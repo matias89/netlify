@@ -1,6 +1,4 @@
-body {
-    background-image: url(/aves-de-presa-Poster-1280x720.jpg);
-}
+
 h1{
     font-family: 'Pacifico', cursive;
     color:rgba(221, 218, 18, 0.87);
@@ -13,3 +11,31 @@ a{
     text-decoration:none;
     color: white;
 }
+#menuh{
+    display: none;
+}
+#lupa{
+    display: none;
+}
+@media (max-width: 992px){
+  
+    
+    #form{
+        display: none;
+    }
+    #lupa{
+        display: flex;
+    }
+  
+   
+}
+@media (max-width: 768px) {
+    #menua{
+        display: none;
+    }
+    #menuh{
+        display: flex;
+    }
+
+}
+
