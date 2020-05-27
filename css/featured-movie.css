@@ -40,6 +40,29 @@
     font-size: 1.3vw !important;
 }
 
+.featured-movie-btn-play {
+    background-color: white;
+    color: black !important;
+}
+
+.featured-movie-btn-play:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black !important;
+    transition: background-color 125ms linear 0s;
+}
+
+.featured-movie-btn-info {
+    background-color: rgba(133, 133, 133, 0.8);
+    color: white !important;
+}
+
+.featured-movie-btn-info:hover {
+    background-color: rgba(46, 46, 46, 0.8);
+    color: black !important;
+    transition: background-color 125ms linear 0s;
+}
+
+
 .featured-movie-main-content {
     position: relative;
     top: 50%;
