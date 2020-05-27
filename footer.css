@@ -1,22 +1,20 @@
-.container {
+.cont-footer {
     background: #717171;
     display: flex;
     justify-content: space-around;
 }
 
+.cont-img,
 img {
     width: 36px;
     height: 36px;
     float: none;
 }
 
-p {
-    font-weight: bold;
-}
-
-a {
+.decoration {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .second-block,
