@@ -36,5 +36,10 @@
     position: absolute;
     padding: .5vw 5.5vw .5vw .8vw;
     top: 60%;
-    left: 75%;
+    left: 87%;
+}
+
+.featured-movie-main-content {
+    position: relative;
+    top: 50%;
 }
