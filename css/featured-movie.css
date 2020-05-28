@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .bg-img-featured-movie {
-    background-image: url(/img/featured-movie.jpg);
+    background-image: url("../img/featured-movie.jpg");
     background-position: center center;
     background-size: cover;
     min-height: 46vw;
-    position: absolute;
+    overflow: hidden;
 }
 
 .featured-movie-title {
     font-family: 'Anton', sans-serif;
     font-size: 3.4vw;
     letter-spacing: 3.5rem;
-    position: relative;
-    top: 50%;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -21,8 +19,6 @@
 .featured-movie-synopsis {
     font-size: 1.4vw;
     letter-spacing: 0.1rem;
-    position: relative;
-    top: 50%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
@@ -35,6 +31,50 @@
     height: 2.4vw;
     position: absolute;
     padding: .5vw 5.5vw .5vw .8vw;
-    top: 60%;
-    left: 75%;
+    top: 70%;
+    left: 87%;
+}
+
+
+.featured-movie-btn-span {
+    font-size: 1.3vw !important;
+}
+
+.featured-movie-btn-play {
+    background-color: white;
+    color: black !important;
+}
+
+.featured-movie-btn-play:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black !important;
+    transition: background-color 125ms linear 0s;
+}
+
+.featured-movie-btn-info {
+    background-color: rgba(133, 133, 133, 0.8);
+    color: white !important;
+}
+
+.featured-movie-btn-info:hover {
+    background-color: rgba(46, 46, 46, 0.8);
+    color: black !important;
+    transition: background-color 125ms linear 0s;
+}
+
+
+.featured-movie-main-content {
+    position: relative;
+    top: 50%;
+}
+
+
+@media (max-width: 600px) {
+    .posicion {
+        position: relative;
+        top: 30%;
+    }
+    .featured-movie-title{
+        letter-spacing: 1rem;
+    }
 }
