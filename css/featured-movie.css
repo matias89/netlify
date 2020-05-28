@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .bg-img-featured-movie {
-    background-image: url("/img/featured-movie.jpg");
+    background-image: url("../img/featured-movie.jpg");
     background-position: center center;
     background-size: cover;
     min-height: 46vw;
