@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="header.css" />
-  <title>Netlify</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/featured-movie.css">
+    <link rel="stylesheet" href="./css/movie-hover.css">
+    <link rel="stylesheet" href="./css/original-section.css">
+    <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
-
 <body>
   <header class="navbar">
     <div class="navbar navbar-light bg-light p-1" data-toggle="dropdown" id="menuh">
@@ -28,7 +32,6 @@
     <div class="nav">
       <h1>Netlify</h1>
     </div>
-
     <div class="nav" id="menua">
       <ul class="nav d-flex justify-content-center">
         <li class="nav-item">
@@ -94,15 +97,608 @@
       </a>
     </div>
   </header>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+    <section id="featured-movie" class="container-fluid">
+        <div class="bg-img-featured-movie row">
+            <div class="text-white col-6">
+                <div class="row featured-movie-main-content ml-3">
+                    <div class=" featured-movie-title">
+                        <span>Joker</span>
+                    </div>
+                    <div class="featured-movie-synopsis">
+                        <p>Arthur Fleck, un comediante con problemas mentales, es ignorado y maltratado por la sociedad.Esto lo lleva a una espiral descendente de revolución y crímenes sangrientos.</p>
+                    </div>
+                </div>
+                <div class="row featured-movie-main-content">
+                    <div class="ml-3">
+                        <button class="btn featured-movie-btn-span featured-movie-btn-play p-2 m-1">
+                            <svg class="bi bi-play-fill" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg>
+                            Reproducir
+                        </button>
+                    </div>
+                    <div class="ml-1">
+                        <button class="btn featured-movie-btn-span featured-movie-btn-info p-2 m-1">
+                            <svg class="bi bi-info-circle" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z" />
+                                <circle cx="8" cy="4.5" r="1" />
+                            </svg>
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-11"></div>
+                    <div class="col-1 featured-movie-maturity-rating text-white">
+                        <span>+16</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="carousel-1" class="container-fluid bg-dark p-2">
+        <div id="carouselExampleControls" class="carousel slide d-none d-lg-block" data-ride="carousel">
+            <div class="carousel-inner d-none d-lg-block">
+                <div class="carousel-item active">
+                    <div class="row w-75 m-auto">
+                        <div class="col-lg-2">
+                            <img src="./images-movie/avengers-endgame-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/aves-de-presa.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/badboys-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/BLOODSHOT-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/gran-asalto-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/joker-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-lg-2">
+                            <img src="./images-movie/liga-justicia-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/matrix-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/sonic-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/star-wars-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/top-gun-2-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="./images-movie/toy-story-4-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide d-none d-md-block d-lg-none" data-ride="carousel">
+            <div class="carousel-inner d-none d-md-block d-lg-none">
+                <div class="carousel-item active">
+                    <div class="row w-75 m-auto">
+                        <div class="col-md-3">
+                            <img src="./images-movie/avengers-endgame-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/aves-de-presa.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/badboys-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/BLOODSHOT-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-md-3">
+                            <img src="./images-movie/gran-asalto-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/joker-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/liga-justicia-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/matrix-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-md-3">
+                            <img src="./images-movie/sonic-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/star-wars-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/top-gun-2-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images-movie/toy-story-4-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide d-none d-sm-block d-md-none" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/avengers-endgame-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/aves-de-presa.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/badboys-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/BLOODSHOT-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/gran-asalto-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/joker-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/liga-justicia-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/matrix-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/sonic-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/star-wars-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-sm-6">
+                            <img src="./images-movie/top-gun-2-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="./images-movie/toy-story-4-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide  d-sm-none" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/avengers-endgame-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/aves-de-presa.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/badboys-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/BLOODSHOT-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12">
+                        <div class="row w-75 m-auto">
+                            <img src="./images-movie/gran-asalto-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/joker-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/liga-justicia-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/matrix-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/sonic-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/star-wars-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/top-gun-2-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row w-75 m-auto">
+                        <div class="col-12">
+                            <img src="./images-movie/toy-story-4-1.jpg" class="d-block w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="original-section-container">
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/1a905108688c8bdc702894d0aaf10ae6--film-popcorn-gisele.jpg" alt="manhattan">
+        </div>
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/200407-6.jpg" alt="mision de rescate">
+        </div>
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/829364985f795a5d28fe48ce3f750cd8.jpg" alt="masacre de texas">
+        </div>
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/bad-boys-for-life-de.jpg" alt="bad boys">
+        </div>
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/ee2b219b44ea2f891e9ccb030032f68c--hugh-glass-tom-hardy.jpg" alt="el renacido">
+        </div>
+        <div class="container-image_8">
+            <img class="claseimg_8" src="./resources_8/Onward-2020-Poster.jpg" alt="onward">
+        </div>
+    </div>
+    <div class="seccionDestacada--fondo">
+        <div class="container-fluid">
+            <div class="seccionDestacada--contenedor">
+                <div class="seccionDestacada--video">
+                    <iframe class="seccionDestacada--wh" width="560" height="315" src="https://www.youtube.com/embed/iQ-UMLVZ0eM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="seccionDestacada--descripcion">
+                    <h1>Película Destacada</h1>
+                    <h3>Subtítulo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias unde fuga dolorem autem quas? Fugit animi repellat architecto ex tempore in, nobis culpa, dolorum voluptatum unde debitis assumenda voluptate? Mollitia.</p>
+                    <button class="seccionDestacada--boton">Reproducir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="modal">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+			Reproducir
+		</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/1aaL7kvzsoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" class="tamaño" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="card-hover" class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/joker.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Joker</h1>
+                            <h5 class="paragraph-img-movie">Drama / Crimen</h5>
+                            <div class="limit-age">+18</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/avengers-endgame.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Avengers</h1>
+                            <h5 class="paragraph-img-movie">Acción / Ciencia Ficción</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/sonic.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Sonic</h1>
+                            <h5 class="paragraph-img-movie">Cine / Familiar / Comedia</h5>
+                            <div class="limit-age">+10</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/BLOODSHOT.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Bloodshot</h1>
+                            <h5 class="paragraph-img-movie">Acción / Aventura</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/badboys.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Bad Boys 3</h1>
+                            <h5 class="paragraph-img-movie">Comedia / Acción</h5>
+                            <div class="limit-age">+15</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/aves-de-presa.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Harley Quinn</h1>
+                            <h5 class="paragraph-img-movie">Acción / Superheroes</h5>
+                            <div class="limit-age">+16</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/top-gun-2.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Top Gun 2</h1>
+                            <h5 class="paragraph-img-movie">Acción / Aventura</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/toy-story-4.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Toy Story 4</h1>
+                            <h5 class="paragraph-img-movie">Cine Familiar / Comedia</h5>
+                            <div class="limit-age">ATP</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/star-wars.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Star Wars IX</h1>
+                            <h5 class="paragraph-img-movie">Ciencia Ficción / Aventura</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/gran-asalto.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">El Gran Asalto</h1>
+                            <h5 class="paragraph-img-movie">Acción / Drama</h5>
+                            <div class="limit-age">+16</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/liga-justicia.jpg" alt="">
+                        <div class="content-text">
+                            <h2 class="title-img-movie">Liga de la Justicia</h2>
+                            <h5 class="paragraph-img-movie">Acción / Fantasía</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <div class="contenedor-hover"><img class="img-movie" src="./images-movie/matrix.jpg" alt="">
+                        <div class="content-text">
+                            <h1 class="title-img-movie">Matrix</h1>
+                            <h5 class="paragraph-img-movie">Ficción / Acción</h5>
+                            <div class="limit-age">+13</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="cont-footer">
+        <div class="first-block">
+            <div>
+                <img class="cont-img" src="./img/facebook.png" alt="">
+                <img class="cont-img" src="./img/instagram.png" alt="">
+                <img class="cont-img" src="./img/twitter.png" alt="">
+                <img class="cont-img" src="./img/youtube-logo.png" alt="">
+            </div>
+            <div>
+                <a class="decoration" href="http://www.rollingcodeschool.com">
+                    <p> Audio y subtitulos</p>
+                </a>
+                <a class="decoration" href="http://www.rollingcodeschool.com">
+                    <p>Prensa</p>
+                </a>
+                <a class="decoration" href="http://www.rollingcodeschool.com">
+                    <p>Privacidad</p>
+                </a>
+                <a class="decoration" href="http://www.rollingcodeschool.com">
+                    <p>Contactenos</p>
+                </a>
+            </div>
+            <div class="button">
+                <a class="decoration" href="">
+                    <p class="p-button">Codigo de servicio</p>
+                </a>
+            </div>
+            <div>
+                <p class="p-size">© 1997-2020 Netflix, Inc.</p>
+            </div>
+        </div>
+        <div class="second-block">
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p> Audio descriptivo</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Relaciones con inversionistas</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Avisos legales</p>
+            </a>
+        </div>
+        <div class="third-block">
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p> Centro de ayuda</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Empleo</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Preferencia de cookies</p>
+            </a>
+        </div>
+        <div class="fourth-block">
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p> Tarjetas de regalo</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Terminos de uso</p>
+            </a>
+            <a class="decoration" href="http://www.rollingcodeschool.com">
+                <p>Informacion corporativa</p>
+            </a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
