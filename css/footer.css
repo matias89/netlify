@@ -1,14 +1,21 @@
 .cont-footer {
     background: #717171;
+    padding: 10px;
+}
+
+.info-column {
     display: flex;
     justify-content: space-around;
 }
 
-.cont-img,
-img {
+.cont-img {
     width: 36px;
     height: 36px;
     float: none;
+}
+
+.social-media {
+    margin-bottom: 20px;
 }
 
 .decoration {
@@ -17,21 +24,19 @@ img {
     font-weight: bold;
 }
 
-.second-block,
-.third-block,
-.fourth-block {
-    margin-top: 39px;
-}
-
-.button {
+.footer-button {
     border: 1px solid black;
     padding: 5px;
-    width: 126px;
     margin: 0px;
+    background-color: inherit;
 }
 
 .p-button {
     margin: 0px;
 }
 
-.p-size {}
+@media (max-width: 576px) {
+    .info-column {
+        flex-direction: column;
+    }
+}
