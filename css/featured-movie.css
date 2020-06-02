@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
 .bg-img-featured-movie {
     background-image: url("../img/featured-movie.jpg");
     background-position: center center;
@@ -29,12 +28,10 @@
     border-style: none none none solid;
     font-size: 1.1vw;
     height: 2.4vw;
-    position: absolute;
     padding: .5vw 5.5vw .5vw .8vw;
     top: 70%;
     left: 87%;
 }
-
 
 .featured-movie-btn-span {
     font-size: 1.3vw !important;
@@ -62,19 +59,17 @@
     transition: background-color 125ms linear 0s;
 }
 
-
 .featured-movie-main-content {
     position: relative;
     top: 50%;
 }
-
 
 @media (max-width: 600px) {
     .posicion {
         position: relative;
         top: 30%;
     }
-    .featured-movie-title{
+    .featured-movie-title {
         letter-spacing: 1rem;
     }
 }
