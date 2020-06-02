@@ -14,6 +14,11 @@
     .container-image_8 {
         width: 100%;
     }
+    .claseimg_8 {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
     #original-section-container {
         flex-direction: column;
     }
