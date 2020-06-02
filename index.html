@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-  <header class="navbar">
+  <header class="netlify-header navbar fixed-top">
     <div class="navbar navbar-light bg-light p-1" data-toggle="dropdown" id="menuh">
       <div class="dropdown navbar-toggler-icon" style=" width: 32px;">
         <a class="btn dropdown-toggler" href="#">
@@ -29,7 +29,7 @@
         </a>
       </div>
     </div>
-    <div class="nav">
+    <div class="logo-header nav">
       <h1>Netlify</h1>
     </div>
     <div class="nav" id="menua">
@@ -98,8 +98,11 @@
     </div>
   </header>
     <section id="featured-movie" class="container-fluid">
+        <div class="featured-movie-maturity-rating text-white p-2">
+            <span>+16</span>
+        </div>
         <div class="bg-img-featured-movie row">
-            <div class="text-white col-6">
+            <div class="text-white col-12 col-md-6">
                 <div class="row featured-movie-main-content ml-3">
                     <div class=" featured-movie-title">
                         <span>Joker</span>
@@ -108,7 +111,7 @@
                         <p>Arthur Fleck, un comediante con problemas mentales, es ignorado y maltratado por la sociedad.Esto lo lleva a una espiral descendente de revolución y crímenes sangrientos.</p>
                     </div>
                 </div>
-                <div class="row featured-movie-main-content">
+                <div class="row">
                     <div class="ml-3">
                         <button class="btn featured-movie-btn-span featured-movie-btn-play p-2 m-1">
                             <svg class="bi bi-play-fill" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="black"
@@ -131,14 +134,6 @@
                             </svg>
                             Más información
                         </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-11"></div>
-                    <div class="col-1 featured-movie-maturity-rating text-white">
-                        <span>+16</span>
                     </div>
                 </div>
             </div>

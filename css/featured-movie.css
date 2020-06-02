@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+#featured-movie {
+    position: relative;
+}
 .bg-img-featured-movie {
     background-image: url("../img/featured-movie.jpg");
     background-position: center center;
     background-size: cover;
-    min-height: 46vw;
+    min-height: 500px;
     overflow: hidden;
 }
 
 .featured-movie-title {
     font-family: 'Anton', sans-serif;
-    font-size: 3.4vw;
+    font-size: 3.4em;
     letter-spacing: 3.5rem;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .featured-movie-synopsis {
-    font-size: 1.4vw;
+    font-size: 1.4em;
     letter-spacing: 0.1rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -25,19 +27,16 @@
 .featured-movie-maturity-rating {
     background-color: rgba(51, 51, 51, 0.6);
     border: solid 3px #dcdcdc;
-    box-sizing: border-box;
     border-style: none none none solid;
-    font-size: 1.1vw;
-    height: 2.4vw;
+    font-size: 1.1em;
     position: absolute;
-    padding: .5vw 5.5vw .5vw .8vw;
     top: 70%;
-    left: 87%;
+    right: 0;
 }
 
 
 .featured-movie-btn-span {
-    font-size: 1.3vw !important;
+    font-size: 1.3em !important;
 }
 
 .featured-movie-btn-play {
@@ -64,16 +63,11 @@
 
 
 .featured-movie-main-content {
-    position: relative;
-    top: 50%;
+    margin-top: 100px;
 }
 
 
 @media (max-width: 600px) {
-    .posicion {
-        position: relative;
-        top: 30%;
-    }
     .featured-movie-title{
         letter-spacing: 1rem;
     }
