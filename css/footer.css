@@ -1,0 +1,37 @@
+.cont-footer {
+    background: #717171;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-img,
+img {
+    width: 36px;
+    height: 36px;
+    float: none;
+}
+
+.decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.second-block,
+.third-block,
+.fourth-block {
+    margin-top: 39px;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    width: 126px;
+    margin: 0px;
+}
+
+.p-button {
+    margin: 0px;
+}
+
+.p-size {}
