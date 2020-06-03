@@ -1,6 +1,6 @@
 .seccionDestacada--fondo {
     justify-content: center;
-    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url(../imagenes/portada.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../imagenes/portada.jpg);
     background-size: cover;
 }
 
@@ -23,6 +23,11 @@
 .seccionDestacada--descripcion {
     flex: 33.33%;
     margin: auto;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.iframe-video-destacado {
+    background-color: black;
 }
 
 @media(max-width: 575px) {
