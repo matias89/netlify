@@ -66,10 +66,6 @@
         }
         
         @media (max-width: 600px) {
-            .posicion {
-                position: relative;
-                top: 30%;
-            }
             .featured-movie-title {
                 letter-spacing: 1rem;
             }
