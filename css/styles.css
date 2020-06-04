@@ -55,30 +55,11 @@
     }
 }
 
-.pa {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.pr {
-    position: relative;
-}
-
-.zoom {
-    transition: transform .2s;
-    padding: 10px;
-}
-
-.zoom:hover {
-    transform: scale(2);
-    padding: 10px;
-}
-
-.aparece {
-    display: none;
-}
-
-.aparece:hover {
-    display: block;
+.featured-movie-title1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 1);
+    text-align: center;
 }

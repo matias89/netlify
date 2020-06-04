@@ -1,88 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-<<<<<<< HEAD
-=======
-#featured-movie {
-    position: relative;
-}
->>>>>>> 10c50107633142f26c79265fc3f52e7295edaacf
-.bg-img-featured-movie {
-    background-image: url("../img/featured-movie.jpg");
-    background-position: center center;
-    background-size: cover;
-    min-height: 500px;
-    overflow: hidden;
-}
-
-.featured-movie-title {
-    font-family: 'Anton', sans-serif;
-    font-size: 3.4em;
-    letter-spacing: 3.5rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
-.featured-movie-synopsis {
-    font-size: 1.4em;
-    letter-spacing: 0.1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
-.featured-movie-maturity-rating {
-    background-color: rgba(51, 51, 51, 0.6);
-    border: solid 3px #dcdcdc;
-    border-style: none none none solid;
-<<<<<<< HEAD
-    font-size: 1.1vw;
-    height: 2.4vw;
-    padding: .5vw 5.5vw .5vw .8vw;
-=======
-    font-size: 1.1em;
-    position: absolute;
->>>>>>> 10c50107633142f26c79265fc3f52e7295edaacf
-    top: 70%;
-    right: 0;
-}
-
-.featured-movie-btn-span {
-    font-size: 1.3em !important;
-}
-
-.featured-movie-btn-play {
-    background-color: white;
-    color: black !important;
-}
-
-.featured-movie-btn-play:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black !important;
-    transition: background-color 125ms linear 0s;
-}
-
-.featured-movie-btn-info {
-    background-color: rgba(133, 133, 133, 0.8);
-    color: white !important;
-}
-
-.featured-movie-btn-info:hover {
-    background-color: rgba(46, 46, 46, 0.8);
-    color: black !important;
-    transition: background-color 125ms linear 0s;
-}
-
-.featured-movie-main-content {
-    margin-top: 100px;
-}
-
-@media (max-width: 600px) {
-<<<<<<< HEAD
-    .posicion {
-        position: relative;
-        top: 30%;
-    }
-    .featured-movie-title {
-=======
-    .featured-movie-title{
->>>>>>> 10c50107633142f26c79265fc3f52e7295edaacf
-        letter-spacing: 1rem;
-    }
-}
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        #featured-movie {
+            position: relative;
+        }
+        
+        .bg-img-featured-movie {
+            background-image: url("../img/featured-movie.jpg");
+            background-position: center center;
+            background-size: cover;
+            min-height: 500px;
+            overflow: hidden;
+        }
+        
+        .featured-movie-title {
+            font-family: 'Anton', sans-serif;
+            font-size: 3.4em;
+            letter-spacing: 3.5rem;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+        
+        .featured-movie-synopsis {
+            font-size: 1.4em;
+            letter-spacing: 0.1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+        
+        .featured-movie-maturity-rating {
+            background-color: rgba(51, 51, 51, 0.6);
+            border: solid 3px #dcdcdc;
+            border-style: none none none solid;
+            font-size: 1.1em;
+            position: absolute;
+            top: 70%;
+            right: 0;
+        }
+        
+        .featured-movie-btn-span {
+            font-size: 1.3em !important;
+        }
+        
+        .featured-movie-btn-play {
+            background-color: white;
+            color: black !important;
+        }
+        
+        .featured-movie-btn-play:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black !important;
+            transition: background-color 125ms linear 0s;
+        }
+        
+        .featured-movie-btn-info {
+            background-color: rgba(133, 133, 133, 0.8);
+            color: white !important;
+        }
+        
+        .featured-movie-btn-info:hover {
+            background-color: rgba(46, 46, 46, 0.8);
+            color: black !important;
+            transition: background-color 125ms linear 0s;
+        }
+        
+        .featured-movie-main-content {
+            margin-top: 100px;
+        }
+        
+        @media (max-width: 600px) {
+            .posicion {
+                position: relative;
+                top: 30%;
+            }
+            .featured-movie-title {
+                letter-spacing: 1rem;
+            }
+        }
