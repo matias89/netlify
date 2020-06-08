@@ -2,6 +2,7 @@
 #featured-movie {
     position: relative;
 }
+
 .bg-img-featured-movie {
     background-image: url("../img/featured-movie.jpg");
     background-position: center center;
@@ -34,7 +35,6 @@
     right: 0;
 }
 
-
 .featured-movie-btn-span {
     font-size: 1.3em !important;
 }
@@ -61,14 +61,12 @@
     transition: background-color 125ms linear 0s;
 }
 
-
 .featured-movie-main-content {
     margin-top: 300px;
 }
 
-
 @media (max-width: 600px) {
-    .featured-movie-title{
+    .featured-movie-title {
         letter-spacing: 1rem;
     }
 }
