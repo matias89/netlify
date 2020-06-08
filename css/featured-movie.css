@@ -6,7 +6,7 @@
     background-image: url("../img/featured-movie.jpg");
     background-position: center center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 720px;
     overflow: hidden;
 }
 
@@ -21,7 +21,7 @@
 .featured-movie-synopsis {
     font-size: 1.4em;
     letter-spacing: 0.1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
 .featured-movie-maturity-rating {
@@ -63,7 +63,7 @@
 
 
 .featured-movie-main-content {
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 
